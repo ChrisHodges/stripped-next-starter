@@ -12,12 +12,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+      <html lang="en">
+      <head>
+          <meta name="robots" content="noindex,nofollow"/>
+          <link rel="icon" href="/favicon.svg" sizes="any"/>
+      </head>
       <body
-        className={`antialiased`}
+          className={`antialiased`}
       >
-        {children}
+      {children}
       </body>
-    </html>
+      </html>
   );
 }
