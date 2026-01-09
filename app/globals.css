@@ -15,3 +15,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+th {
+  @apply text-left;
+}
+
+button {
+  @apply cursor-pointer;
+}

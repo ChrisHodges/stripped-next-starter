@@ -1,0 +1,1 @@
+console.log('You can run arbitrary scripts like this.')
